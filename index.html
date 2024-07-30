@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="refresh" content="1"> -->
-    <title>Document</title>
+    <title>Food website </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -14,29 +14,44 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <header class="flex w-full shadow-md  bg-[#FAFAFA] h-[10vh] justify-between items-center fixed z-40 top-0 left-0 right-0 py-[2rem] px-[9%] ">
+    <header
+        class="flex w-full shadow-md  bg-[#FAFAFA] h-[10vh] justify-between items-center fixed z-40 top-0 left-0 right-0 py-[2rem] px-[9%] ">
         <div class="logo">
             <a href="#" class="uppercase font-bold text-[3vmin]"><span
-                    class="w-6 bg-[#53EC62] text-[#fff] font-bold px-2 py-1 rounded">f</span>oodi</a>
+                    class=" bg-[#53EC62] text-[#fff] font-bold px-2 py-1 rounded">f</span>oodi</a>
         </div>
-        <nav class="navbar absolute md:sticky top-[12vh] flex justify-center text-center pt-[4rem] h-[100vh] md:h-fit bg-[#fff] w-[300px] md:bg-transparent right-0">
-            <ul class="md:flex flex flex-col md:gap-6">
-                <li><a href="#" class=" text-[2rem] pt-[1rem]  bg-slate-400 md:text-[1.2rem]  font-normal text-[#53EC62]">Home</a></li>
-                <li><a href="#" class=" text-[2rem] pt-[1rem]  bg-slate-400 md:text-[1.2rem] text-[#000] hover:text-[#53EC62] font-normal ">menu</a></li>
-                <li><a href="#" class=" text-[2rem] pt-[1rem]  bg-slate-400 md:text-[1.2rem] text-[#000] hover:text-[#53EC62] font-normal ">service</a></li>
-                <li><a href="#" class=" text-[2rem] pt-[1rem]  bg-slate-400 md:text-[1.2rem] text-[#000] hover:text-[#53EC62] font-normal ">offer</a></li>
+        <nav
+            class="navbar absolute md:sticky top-[12vh] flex justify-center md:pt-0 pt-[4rem] h-[100vh] md:h-fit bg-[#fff] w-[300px] md:bg-transparent right-0">
+            <ul class=" flex flex-col md:flex-row md:fler gap-6">
+                <li><a href="#"
+                        class=" text-[2rem] md:text-[1.3rem] md:pt-[0rem] pt-[1rem]   font-normal text-[#53EC62]">Home</a>
+                </li>
+                <li><a href="#"
+                        class=" text-[2rem] md:text-[1.3rem] md:pt-[0rem]  pt-[1rem] text-[#000] hover:text-[#53EC62] font-normal ">menu</a>
+                </li>
+                <li><a href="#"
+                        class=" text-[2rem] md:text-[1.3rem] md:pt-[0rem]  pt-[1rem] text-[#000] hover:text-[#53EC62] font-normal ">service</a>
+                </li>
+                <li><a href="#"
+                        class=" text-[2rem] md:text-[1.3rem] md:pt-[0rem]  pt-[1rem] text-[#000] hover:text-[#53EC62] font-normal ">offer</a>
+                </li>
             </ul>
         </nav>
 
         <div class="icons flex gap-5 items-center">
-            <i class="bx bx-search-alt-2 text-[1.5rem] font-bold hover:text-[#53EC62]" ></i>
+            <i class="bx bx-search-alt-2 text-[1.5rem] font-bold hover:text-[#53EC62]"></i>
             <div class="cart">
                 <i class='bx bx-shopping-bag text-[1.5rem] font-bold hover:text-[#53EC62]'></i>
-                <div class="absolute translate-x-[14px] translate-y-[-30px] bg-[#53EC62] rounded-full w-[1rem] h-[1rem] flex justify-center items-center text-[10px]">8</div>
+                <div
+                    class="absolute translate-x-[14px] translate-y-[-30px] bg-[#53EC62] rounded-full w-[1rem] h-[1rem] flex justify-center items-center text-[10px]">
+                    8</div>
             </div>
-            <div class="w-40 h-10 bg-[#53EC62] top-[25rem] rounded-none md:rounded-[2rem] absolute right-0 flex justify-center sm:gap-2 sm:flex items-center md:static hover:bg-[#000]">
-                <i class='bx bxs-phone-call text-[1.5rem] text-[#fff]'></i> <button class="text-[#fff] text-2xl">Contact</button>
+            <div
+                class=" w-32 md:w-40 h-10 bg-[#53EC62] top-[25rem] rounded-none md:rounded-[2rem] absolute right-0 flex justify-center sm:gap-2 sm:flex items-center md:static hover:bg-[#000]">
+                <i class='bx bxs-phone-call text-[1.5rem] text-[#fff]'></i> <button
+                    class="text-[#fff] text-2xl">Contact</button>
             </div>
 
             <div class="menu flex md:hidden flex-col  justify-center items-center gap-y-[5px] cursor-pointer z-20">
@@ -47,7 +62,7 @@
         </div>
     </header>
 
-    <section class="home bg-[#fff] w-full min-h-screen mt-[10vh]" id="home">
+    <section class="home bg-[#fff] w-full min-h-screen mt-[10vh] py-[2rem] px-[9%]" id="home">
         <div
             class="container_box min-h-[90vmin] w-full flex justify-center items-center flex-wrap gap-[2rem]  flex-col-reverse sm:flex-row">
             <div class="content grow shrink basis-[25rem]">
@@ -61,7 +76,7 @@
                 <div class="button_box flex items-center w-full gap-[7px]">
 
                     <button
-                        class="btn w-[9rem] h-[3rem] rounded-[2rem] text-[#000] text-[1.1rem] cursor-pointer transition-all bg-[#53ec62] hover:bg-[#151414] hover:text-[#fff]">Order
+                        class="btn w-[9rem] h-[3rem] rounded-[2rem] text-[1.1rem] cursor-pointer transition-all bg-[#53ec62] hover:bg-[#151414] text-[#fff]">Order
                         Now</button>
 
                     <p class="font-bold text-[4vmin]">Watch Video</p>
@@ -126,55 +141,67 @@
 
 
 
-    <section class="customer min-h-[60vh] w-full " id="customer">
+    <section class="customer min-h-[60vh] w-full py-[5rem] px-[9%] " id="customer">
         <div class="heading_box w-full text-center">
             <p class="text-[red] uppercase text-[1.2rem]">Customer Favorites</p>
-            <h1 class="text-[2.5rem] mx-[4rem] font-bold">Popular Catagories</h1>
+            <h1 class="sm:text-[2.5rem] mt-[1rem] text-[2rem]   font-bold">Popular Catagories</h1>
         </div>
-        <div class="container_box flex justify-center items-center gap-4 mt-[7rem] flex-wrap">
-            <div class="box box1 w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62]">
-                <div class="image  w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white "> 
-                    <img src="./images/customer image 1.png" class="w-[90px]"  >
+        <div class="container_box flex  justify-center items-center gap-8 mt-[5rem] flex-wrap">
+            <div
+                class="box box1  w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62] hover:text-[#fff]">
+                <div
+                    class="image  w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
+                    <img src="./images/customer image 1.png" class="w-[90px]">
                 </div>
-                <h3>Main Dish</h3>
+                <h3 class="font-bold text-[18.72px]">Main Dish</h3>
                 <p>(86 dishes)</p>
             </div>
-            <div class="box box2  w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62]">
-                <div class="image  w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
-                    <img src="./images/customer image 2.png" class="w-[90px]" >
+            <div
+                class="box box2  w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62] hover:text-[#fff]">
+                <div
+                    class="image  w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
+                    <img src="./images/customer image 2.png" class="w-[90px]">
                 </div>
-                <h3>Break Fast</h3>
+                <h3 class="font-bold text-[18.72px]">Break Fast</h3>
                 <p>(12 break fast)</p>
             </div>
-            <div class="box box3  w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62]">
-                <div class="image  w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
-                    <img src="./images/customer image 3.png" class="w-[90px]" >
+            <div
+                class="box box3  w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62] hover:text-[#fff]">
+                <div
+                    class="image  w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
+                    <img src="./images/customer image 3.png" class="w-[90px]">
                 </div>
-                <h3>Dessert</h3>
+                <h3 class="font-bold text-[18.72px]">Dessert</h3>
                 <p>(48 dessert)</p>
             </div>
-            <div class="box box4  w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62]">
-                <div class="image w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
-                    <img src="./images/customer image 4.png" class="w-[4rem]" >
+            <div
+                class="box box4 w-[210px] h-[210px] shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] rounded-[2rem] flex flex-col items-center justify-center gap-y-[7px] cursor-pointer hover:bg-[#53EC62]">
+                <div
+                    class="image w-[120px] h-[120px] grid place-items-center bg-[#C1F1C6] rounded-full hover:bg-white ">
+                    <img src="./images/customer image 4.png" class="w-[4rem]">
                 </div>
-                <h3>Browse All</h3>
+                <h3 class="font-bold text-[18.72px]">Browse All</h3>
                 <p>(255 Items)</p>
             </div>
         </div>
     </section>
 
 
-    <section class="dishes min-h-[90vh] w-full" id="dishes">
+    <section class="dishes min-h-[90vh] w-full py-[2rem] px-[9%]" id="dishes">
         <div class="heading_box flex justify-between w-full items-center  mb-[3rem] flex-wrap gap-[2rem]">
-            <div class="text shrink grow basis-[25rem] ">
-                <p>Special Dishes</p>
-                <h1 class="text-[3rem] font-bold">Standout Dishes From Our Menu</h1>
+            <div class="text shrink grow basis-[25rem]  ">
+                <p class="uppercase text-[red] flex justify-start">Special Dishes</p>
+                <h1 class=" font-bold text-[2rem] sm:text-[3rem] ">Standout Dishes From Our Menu</h1>
             </div>
             <div class="icons flex gap-3 shrink grow basis-[25rem] justify-end">
-                <div class="w-[3rem] h-[3rem] grid place-items-center bg-white rounded-full shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] hover:bg-[#53EC62] hover:text-white hover:transition-all"><i
-                        class="fa-solid fa-chevron-left"></i></div>
-                <div class="w-[3rem] h-[3rem] grid place-items-center bg-white rounded-full shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] hover:bg-[#53EC62] hover:text-white hover:transition-all"><i
-                        class="fa-solid fa-chevron-right"></i></div>
+                <div
+                    class="w-[3rem] h-[3rem] grid place-items-center bg-white rounded-full shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] hover:bg-[#53EC62] hover:text-white hover:transition-all">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div
+                    class="w-[3rem] h-[3rem] grid place-items-center bg-white rounded-full shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] hover:bg-[#53EC62] hover:text-white hover:transition-all">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
             </div>
         </div>
 
@@ -198,7 +225,8 @@
                     <p><span class="star text-[#FDEF71] px-1"><i class="fa-solid fa-star"></i></span>4.9</p>
                 </div>
             </div>
-            <div class="box box2 flex flex-col gap-3 w-[280px] h-[330px] rounded-[1.5rem] bg-white shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px]">
+            <div
+                class="box box2 flex flex-col gap-3 w-[280px] h-[330px] rounded-[1.5rem] bg-white shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px]">
                 <div class="icons_box w-full flex justify-end ">
                     <span
                         class="heart w-[3rem] h-[3rem] bg-[#53EC62] grid place-items-center relative rounded-[1.5rem] rounded-br-none rounded-tl-none hover:text-white"><i
@@ -212,7 +240,7 @@
                     <p>Description of the item</p>
                 </div>
                 <div class="price px-[28px] flex justify-between">
-                    <p><span class="dollar text-[red] text-[13px]" >$</span>26.00</p>
+                    <p><span class="dollar text-[red] text-[13px]">$</span>26.00</p>
                     <p><span class="star text-[#FDEF71] px-1"><i class="fa-solid fa-star"></i></span>4.6</p>
                 </div>
             </div>
@@ -238,7 +266,7 @@
     </section>
 
 
-    <section class="testimonial -h-screen bg-white w-full min-h-screen" id="testimonial">
+    <section class="testimonial -h-screen bg-white w-full min-h-screen py-[4rem] px-[9%]" id="testimonial">
         <div class="container_box flex items-center justify-center min-h-[50vh] gap-[2rem] flex-wrap ">
             <div class="image_box shrink grow basis-[25rem]  h-[70vh] flex justify-center items-end">
                 <span class="Emoji1 absolute text-[1.5rem] translate-x-[-130px] translate-y-[-100px]">😋</span>
@@ -255,7 +283,7 @@
             </div>
             <div class="content shrink grow basis-[25rem]">
                 <p class="para-1 text-[red] uppercase">Testimonials</p>
-                <h1 class="text-[2.5rem] my-[1.5rem] font-bold">What Our Customers Say About Us</h1>
+                <h1 class=" my-[1.5rem] font-bold text-[2rem] sm:text-[2.5rem] ">What Our Customers Say About Us</h1>
                 <p class="leading-[1.8rem] mb-[2rem]">“I had the pleasure of dining at Foodi last night, and I'm still
                     raving about the experience! The
                     attention to detail in presentation and service was impeccable”</p>
@@ -280,18 +308,18 @@
 
     <!-- TESTIMONIAL SETION END -->
 
-    <section class="service min-h-screen w-full bg-[white] px-2 py-5 sm:py-5 sm:px-20" id="service">
+    <section class="service min-h-screen w-full bg-[white] px-[9%] py-[3rem]" id="service">
         <div class="container_box flex justify-center items-center min-h-screen flex-wrap gap-10">
             <div class="content  grow shrink basis-96 bg-white min-h-[80vh]">
-                <p class="text-[red] font-bold uppercase">Our Story & Services</p>
+                <p class="text-[red] font-normal uppercase">Our Story & Services</p>
                 <h1 class=" text-[2rem] sm:text-[2.5rem] font-bold my-[2rem]">Our Culinary Journey And Services</h1>
                 <p class="text-[1.3rem] pb-[2.5rem]">Rooted in passion, we curate unforgettable dining experiences and
                     offer exceptional services, blending culinary artistry with warm hospitality.</p>
                 <button
                     class="w-[9rem] h-[3rem] rounded-[2rem] text-[#fff] text-[1.1rem] cursor-pointer transition-all bg-[#53EC62] hover:bg-[#151414] hover:text-[#fff]">Explore</button>
             </div>
-            <div class="boxes grow shrink basis-[25rem] min-h-[80vh]  flex flex-wrap justify-center">
-                <div class="col flex  flex-wrap sm:flex-nowrap justify-center">
+            <div class="boxes grow shrink basis-[25rem] min-h-[80vh]  flex flex-wrap justify-center items-center">
+                <div class="col flex gap-0  flex-wrap sm:flex-nowrap justify-center">
                     <div
                         class="boxitem shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] w-[200px] h-[200px] rounded-[2rem] flex  justify-center items-center flex-col text-center m-[2vmin] p-[3vmin]">
                         <img src="./images/service image 1.png" class="w-[3rem] h-[3rem]">
@@ -303,7 +331,7 @@
                         class="boxitem shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] w-[200px] h-[200px] rounded-[2rem] flex  justify-center items-center flex-col text-center m-[2vmin] p-[3vmin]">
                         <img src="./images/service image 3.png" class="w-[3rem] h-[3rem]">
                         <h2 class="font-bold text-[1rem] my-[1rem] uppercase text-[#53EC62]">Online Ordering</h2>
-                        <p class="text-[green] text-[14px] leading-4">Explore menu & order with ease using our Online
+                        <p class="text-[green]  text-[14px] leading-4">Explore menu & order with ease using our Online
                             Ordering </p>
                     </div>
                 </div>
@@ -334,11 +362,12 @@
 
 
 
-    <footer class="footer min-h-fit w-full px-2 py-5 sm:py-5 sm:px-20">
+    <footer class="footer min-h-fit w-full px-[9%] py-[1rem]">
         <div class="container_box w-full min-h-fit flex justify-start items-start gap-20 flex-wrap ">
             <div class=" box1 w-40">
                 <div class="logo_content">
-                    <div class="logo">FOODI</div>
+                    <div class="logo uppercase font-bold text-[3vmin]"><span
+                            class=" bg-[#53EC62] text-[#fff] font-bold px-2 py-1 rounded">F</span>OODI</div>
                     <p>Savor the artistry where every dish is a culinary masterpiece</p>
                 </div>
             </div>
@@ -354,19 +383,18 @@
             <div class="box box3  w-40">
                 <h1 class="text-[1.5rem] font-bold">Main Menu</h1>
                 <ul>
-                    <li class="hover:underline">home</li>
-                    <li class="hover:underline">home</li>
-                    <li class="hover:underline">home</li>
-                    <li class="hover:underline">home</li>
+                    <li class="hover:underline"><a href="#">Home</a></li>
+                    <li class="hover:underline"><a href="#">Offers</a></li>
+                    <li class="hover:underline"><a href="#">Menus</a></li>
+                    <li class="hover:underline"><a href="#">Reservation</a></li>
                 </ul>
             </div>
             <div class="box box4  w-40">
                 <h1 class="text-[1.5rem] font-bold">Contact Us</h1>
                 <ul>
-                    <li class="hover:underline">home</li>
-                    <li class="hover:underline">home</li>
-                    <li class="hover:underline">home</li>
-                    <li class="hover:underline">home</li>
+                    <li class="hover:underline"><a href="#">example@email.com</a></li>
+                    <li class="hover:underline"><a href="#">+64 958 248 966</a></li>
+                    <li class="hover:underline"><a href="#">Social media</a></li>
                 </ul>
             </div>
         </div>
@@ -376,16 +404,20 @@
             <div class="social_iocns flex items-center gap-2">
                 <div
                     class="w-12 h-12 shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] bg-[#C1F1C6] rounded-full flex justify-center items-center transition-all hover:bg-[#53EC62] hover:text-[#fff]">
-                    <i class="text-lg fa-brands fa-facebook"></i></div>
+                    <i class="text-lg fa-brands fa-facebook"></i>
+                </div>
                 <div
                     class="w-12 h-12 shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] bg-[#C1F1C6] rounded-full flex justify-center items-center transition-all hover:bg-[#53EC62] hover:text-[#fff]">
-                    <i class="text-lg fa-brands fa-instagram"></i></div>
+                    <i class="text-lg fa-brands fa-instagram"></i>
+                </div>
                 <div
                     class="w-12 h-12 shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] bg-[#C1F1C6] rounded-full flex justify-center items-center transition-all hover:bg-[#53EC62] hover:text-[#fff]">
-                    <i class="text-lg fa-brands fa-twitter"></i></div>
+                    <i class="text-lg fa-brands fa-twitter"></i>
+                </div>
                 <div
                     class="w-12 h-12 shadow-[rgba(100,100,111,0.2)_0px_7px_29px_0px] bg-[#C1F1C6] rounded-full flex justify-center items-center transition-all hover:bg-[#53EC62] hover:text-[#fff]">
-                    <i class="text-lg fa-brands fa-youtube"></i></div>
+                    <i class="text-lg fa-brands fa-youtube"></i>
+                </div>
             </div>
             <div class="text">
                 <p>Copyright 2024 Dscode | All rights reserved</p>
@@ -395,4 +427,5 @@
 
     <script src="./index.js"></script>
 </body>
+
 </html>
